@@ -1,5 +1,23 @@
 package exercicio02;
 
+/**
+ * 
+ * Descrição:
+ * Classe: Conta
+ * 
+ * Métodos:
+ * sacar(valor:double)
+ * depositar(valor:double)
+ * 
+ * Atributos:
+ * tipoConta:Boolean
+ * nome:String
+ * cpf:String
+ * saldo:Double
+ * investimentos:Double
+ * 
+ */
+
 public class Main {
     public static void main(String[] args) {
         Conta conta = new Conta(true, "Raul Crespo", "123.456.789-00");
